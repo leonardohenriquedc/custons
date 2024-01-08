@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontheader';
+    src: url(../midias/fontes/dungeon_depths/Dungeon\ Depths.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'fonth';
+    src: url(../midias/fontes/alanta_rosery/Alanta\ Rosery.otf) format(opentype);
+}
+
+:root {
+    --font-destaque: 'fontheader', verdana, sans-serif;
+    --font-titulos: 'fonth', verdana, sans-serif;
+    --cor1: #BD2EF0;
+    --cor2: #2E99F0;
+    --cor3: #7D2EF0;
+    --cor4: #3F2EF0;
+    --cor5: #2E5BF0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor4);
+}
+
+#header1 {
+    background-image: linear-gradient(to right, #2E5BF0, #3F2EF0);
+    margin: 0px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+header > h1 {
+    margin: 0px;
+    font-size: 2vw;
+    font-family: var(--font-destaque);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header2 {
+    background-color: black;
+    margin: 0px;
+    padding-top: 10px;
+    height: 90px;
+}
+
+#header2 > p, h3 {
+    display: inline-block;
+    color: white;
+    font-family: var(--font-titulos);
+    padding-left: 30px;
+    margin: 0px;
+}
+
+#header2 > h3 {
+    border: 1px solid var(--cor4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+#header2 > h3:hover {
+    background-color: var(--cor4);
+    font-size: 1.3vw;
+    transition: 0.7s;
+}
+
+#header2 > p {
+    padding-right: 15px;
+    font-size: 1.9vw;
+}
+
+
+
+main {
+    width: 90%;
+    margin: 0px auto;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+main > h1,h2 {
+    margin: 0px;
+    font-family: var(--font-titulos);
+}
+
+main > h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 4vh;
+}
+
+main > h2 {
+    padding: 30px;
+    font-size: 3vw;
+}
+
+main > p {
+    text-indent: 5%;
+    font-size: 2.7vw;
+}
+
+main #p-obs {
+    font-size: 1.4vw;
+}
+
+footer {
+    background-color: black;
+    margin: 0px;
+    height: 60px;
+    position: relative;
+}
+
+footer > p {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer a {
+    text-decoration: none;
+    color: #2E99F0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-size: 2.6vw;
+    transition: 0.7s;
+}

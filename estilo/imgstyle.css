@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root {
+    --font-destaque: 'fontheader', verdana, sans-serif;
+    --font-titulos: 'fonth', verdana, sans-serif;
+    --cor1: #BD2EF0;
+    --cor2: #2E99F0;
+    --cor3: #7D2EF0;
+    --cor4: #3F2EF0;
+    --cor5: #2E5BF0;
+}
+
+#Translucent {
+    background-color: black;
+    background-image: url('../midias/imagens/translucenttbimg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+#Lively {
+    background-color: black;
+    background-image: url('../midias/imagens/printlivelywalllpaper.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+#rain {
+    background-color: black;
+    background-image: url('../midias/imagens/printrainmeter.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+#jax {
+    background-color: black;
+    background-image: url('../midias/imagens/printjaxcore.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+#mond {
+    background-color: black;
+    background-image: url('../midias/imagens/printmond.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+#Video {
+    background-color: transparent;
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    height: 40vh;
+    margin: auto;
+    position: relative;
+}
+
+iframe {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
