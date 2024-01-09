@@ -65,22 +65,17 @@
     margin: 0px auto;
 }
 
-#Video {
-    background-color: transparent;
-    width: 90%;
-    padding: 0px;
-    margin: 0px;
-    height: 40vh;
-    margin: auto;
-    position: relative;
+#video {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
-iframe {
-    margin: auto;
-    width: 70vw;
-    height: 40vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+ iframe {
+    margin:auto;
+    max-width: 70vw;
+    max-height: 40vh;
+    l
 }

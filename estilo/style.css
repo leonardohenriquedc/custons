@@ -33,6 +33,7 @@ body {
     height: 100px;
     text-align: center;
     position: relative;
+    display: flex;
 }
 
 header > h1 {
@@ -110,7 +111,7 @@ main > p {
     font-size: 2.7vw;
 }
 
-main #p-obs {
+main .p-obs {
     font-size: 1.4vw;
 }
 
