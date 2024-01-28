@@ -46,42 +46,6 @@ header > h1 {
     transform: translate(-50%, -50%);
 }
 
-#header2 {
-    background-color: black;
-    margin: 0px;
-    padding-top: 10px;
-    height: 90px;
-}
-
-#header2 > p, h3 {
-    display: inline-block;
-    color: white;
-    font-family: var(--font-titulos);
-    padding-left: 30px;
-    margin: 0px;
-}
-
-#header2 > h3 {
-    border: 1px solid var(--cor4);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    font-size: 1vw;
-}
-
-#header2 > h3:hover {
-    background-color: var(--cor4);
-    font-size: 1.3vw;
-    transition: 0.7s;
-}
-
-#header2 > p {
-    padding-right: 15px;
-    font-size: 1.9vw;
-}
-
-
-
 main {
     width: 90%;
     margin: 0px auto;
