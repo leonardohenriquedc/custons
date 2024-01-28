@@ -118,7 +118,7 @@ main .p-obs {
 footer {
     background-color: black;
     margin: 0px;
-    height: 15vh;
+    height: 10vh;
     position: relative;
 }
 
@@ -126,7 +126,7 @@ footer > p {
     margin: 0px;
     color: white;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2vh;
     position: absolute; 
     top: 50%;
     left: 50%;
