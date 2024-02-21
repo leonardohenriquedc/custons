@@ -22,8 +22,18 @@ header {
 }
 
 header > h1 {
-    font-family: fontheader, monospace;
-    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 4px black;
+}
+
+section.parte01 > h1{
+    background-color: #a17fff83;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px #00000088;
+    margin: 5px;
 }
 
 main > section h1 {
@@ -72,5 +82,5 @@ section ul{
     display: grid;
     gap: 20px;
     text-align: center;
-
+    box-shadow: 1px 1px 4px #00000062;
 }
