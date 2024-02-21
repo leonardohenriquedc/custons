@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fontheader';
+    src: url(../midias/fontes/dungeon_depths/Dungeon\ Depths.ttf) format(truetype);
+}
+
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to left, #3F2EF0, #2E5BF0);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    font-family: fontheader, monospace;
+    font-size: 1.5em;
+}
+
+main > section h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+section ul li{
+    list-style-type: none;
+    width: 100%;
+    display: grid;
+
+}
+
+section > ul > li > a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section > ul > li > a > p{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #0000008a;
+    color: white;
+}
+
+section > ul > li > a img{
+    max-width: 300px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1 /3;
+}
+
+section ul{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+
+}
